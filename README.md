@@ -4,6 +4,8 @@ This WordPress plugin extends the core Cover block to create a 'hover reveal' ca
 
 The final pattern is registered within the plugin, but it could also potentially be included directly in a custom WordPress theme. It can also be found on the WordPress Pattern Directory as [Grid Cards](https://wordpress.org/patterns/pattern/grid-cards/).
 
+The accompanying post resides on the WordPress Developer Blog: https://developer.wordpress.org/news/2024/07/30/building-a-card-layout-with-a-hover-reveal-effect/
+
 ## How to use
 
 1. Download this plugin as a zip (click on 'Code' and choose 'Download ZIP')
