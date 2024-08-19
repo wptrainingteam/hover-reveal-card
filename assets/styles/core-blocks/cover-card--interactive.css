@@ -11,7 +11,7 @@
 	position: static;
 }
 /* Make whole card clickable */
-.is-style-card--interactive :where(.wp-block-heading) a:after {
+.is-style-card--interactive:not(.has-child-selected) :where(.wp-block-heading) a:after {
 	content: "";
 	inset: 0;
 	position: absolute;
@@ -23,8 +23,8 @@
 	transform: scale(1);
 	transition: all 0.35s ease;
 }
-.is-style-card--interactive:focus-within :where(.wp-block-cover__image-background),
-.is-style-card--interactive:hover :where(.wp-block-cover__image-background) {
+.is-style-card--interactive:not(.has-child-selected):focus-within :where(.wp-block-cover__image-background),
+.is-style-card--interactive:not(.has-child-selected):hover :where(.wp-block-cover__image-background) {
 	filter: saturate(200%) brightness(40%);
 	transform: scale(1.15);
 }
@@ -42,7 +42,7 @@
 	transform: scale(1) translateX(0);
 }
 /* Animate content area */
-.is-style-card--interactive :where(.is-vertical) .wp-block-group:first-of-type + .wp-block-group p {
+.is-style-card--interactive:not(.has-child-selected) :where(.is-vertical) .wp-block-group:first-of-type + .wp-block-group p {
 	max-height: 0;
 	opacity: 0;
 	overflow: hidden;
