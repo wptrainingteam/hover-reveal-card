@@ -18,6 +18,10 @@ Feel free to fork it and use it however you like!
 
 ## Changelog
 
+### August 19, 2024 - v1.0.1
+
+Update CSS to account for editing experience: remove hiding/showing of elements by targeting `:not(.has-child-selected)`.
+
 ### July 18, 2024 - v1.0.0
 
 Initial launch.
